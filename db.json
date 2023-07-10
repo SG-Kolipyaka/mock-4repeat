@@ -1,20 +1,356 @@
 {
-  "users": [
+  "quiz": [
     {
-      "id": 1,
-      "name": "Chandra",
-      "age": 25,
-      "place": "Visakhapatnam",
-      "batch_name": "WEB-21",
-      "profession": "FSD"
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Principality of Sealand is an unrecognized micronation off the coast of what country?",
+      "correct_answer": "The United Kingdom",
+      "incorrect_answers": [
+        "Japan",
+        "Austrailia",
+        "Argentina"
+      ]
     },
     {
-      "id": 2,
-      "name": "Nrupul",
-      "age": 37,
-      "place": "Vijayawada",
-      "batch_name": "WEB-18",
-      "profession": "FSD"
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Spitfire L.F. Mk IX had what engine?",
+      "correct_answer": "Merlin 66",
+      "incorrect_answers": [
+        "Griffon 65",
+        "Merlin 50",
+        "Merlin X"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "There are no roads in\/out of Juneau, Alaska.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Art",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What year did Albrecht D&uuml;rer create the painting &quot;The Young Hare&quot;?",
+      "correct_answer": "1502",
+      "incorrect_answers": [
+        "1702",
+        "1402",
+        "1602"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the code name for the mobile operating system Android 7.0?",
+      "correct_answer": "Nougat",
+      "incorrect_answers": [
+        "Ice Cream Sandwich",
+        "Jelly Bean",
+        "Marshmallow"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Red Vines is a brand of what type of candy?",
+      "correct_answer": "Licorice",
+      "incorrect_answers": [
+        "Lollipop",
+        "Chocolate",
+        "Bubblegum"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Gibraltar, located just south of the Iberian peninsula, is a territory of which West Europe country?",
+      "correct_answer": "United Kingdom",
+      "incorrect_answers": [
+        "Spain",
+        "Portugal",
+        "France"
+      ]
+    },
+    {
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The medical condition osteoporosis affects which part of the body?",
+      "correct_answer": "Bones",
+      "incorrect_answers": [
+        "Skin",
+        "Brain",
+        "Heart"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the German word for &quot;spoon&quot;?",
+      "correct_answer": "L&ouml;ffel",
+      "incorrect_answers": [
+        "Gabel",
+        "Messer",
+        "Essst&auml;bchen"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the game &quot;Cave Story,&quot; what is the character Balrog&#039;s catchphrase?",
+      "correct_answer": "Huzzah!",
+      "incorrect_answers": [
+        "Yes!",
+        "Whoa there!",
+        "Nyeh heh heh!"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Final Fantasy VI was originally released outside Japan under what name?",
+      "correct_answer": "Final Fantasy III",
+      "incorrect_answers": [
+        "Final Fantasy VI",
+        "Final Fantasy V",
+        "Final Fantasy II"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the oldest US state?",
+      "correct_answer": "Delaware",
+      "incorrect_answers": [
+        "Rhode Island",
+        "Maine",
+        "Virginia"
+      ]
+    },
+    {
+      "category": "Mythology",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Nidhogg is a mythical creature from what mythology?",
+      "correct_answer": "Norse",
+      "incorrect_answers": [
+        "Egyptian",
+        "Greek",
+        "Hindu"
+      ]
+    },
+    {
+      "category": "Science & Nature",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "An Astronomical Unit is the distance between Earth and the Moon.",
+      "correct_answer": "False",
+      "incorrect_answers": [
+        "True"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who won the 2016 Formula 1 World Driver&#039;s Championship?",
+      "correct_answer": "Nico Rosberg",
+      "incorrect_answers": [
+        "Lewis Hamilton",
+        "Max Verstappen",
+        "Kimi Raikkonen"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What album did Bon Iver release in 2016?",
+      "correct_answer": "22, A Million",
+      "incorrect_answers": [
+        "Bon Iver, Bon Iver",
+        "Blood Bank EP",
+        "For Emma, Forever Ago"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Martin Luther King Jr. and Anne Frank were born the same year. ",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In Super Smash Bros. for Nintendo 3DS and Nintendo Wii U, who was the sixth fighter to be added to the game post-launch?",
+      "correct_answer": "Corrin",
+      "incorrect_answers": [
+        "Cloud",
+        "Bayonnetta",
+        "Ryu"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+      "correct_answer": "Poland",
+      "incorrect_answers": [
+        "Czechoslovakia",
+        "Austria",
+        "Hungary"
+      ]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who out of these actresses is the youngest?",
+      "correct_answer": "Kiernan Shipka",
+      "incorrect_answers": [
+        "Ariel Winter",
+        "Emma Watson",
+        "Bonnie Wright"
+      ]
+    },
+    {
+      "category": "Entertainment: Cartoon & Animations",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In &quot;SpongeBob SquarePants&quot;, what is the name of Sandy Cheek&#039;s place of residence?",
+      "correct_answer": "Sandy&#039;s Treedome",
+      "incorrect_answers": [
+        "&quot;The Dome&quot;",
+        "Sandy&#039;s Bubble",
+        "Auquatic Reseach Centre"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following songs did Elton John perform following Princess Diane&#039;s passing?",
+      "correct_answer": "Candles in the Wind",
+      "incorrect_answers": [
+        "I Guess That&#039;s Why They Call It The Blues",
+        "Your Song",
+        "Island Girl"
+      ]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?",
+      "correct_answer": "Bing Crosby",
+      "incorrect_answers": [
+        "Elvis Presley",
+        "Charlie Chaplin",
+        "Groucho Marx"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these words means &quot;idle spectator&quot;?",
+      "correct_answer": "Gongoozler",
+      "incorrect_answers": [
+        "Gossypiboma",
+        "Jentacular",
+        "Meupareunia"
+      ]
+    },
+    {
+      "category": "Entertainment: Television",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who was the winner of &quot;Big Brother&quot; Season 10?",
+      "correct_answer": "Dan Gheesling",
+      "incorrect_answers": [
+        "Bryce Kranyik",
+        "Ryan Sutfin",
+        "Chris Mundorf"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of Funny Valentine&#039;s stand in Jojo&#039;s Bizarre Adventure Part 7, Steel Ball Run?",
+      "correct_answer": "Dirty Deeds Done Dirt Cheap",
+      "incorrect_answers": [
+        "Filthy Acts Done For A Reasonable Price",
+        "Civil War",
+        "God Bless The USA"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "In &quot;Minecraft&quot;, gold tools are faster than diamond tools.",
+      "correct_answer": "True",
+      "incorrect_answers": [
+        "False"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Night In The Woods, where does Gregg work?",
+      "correct_answer": "Snack Falcon",
+      "incorrect_answers": [
+        "Ol&#039; Pickaxe",
+        "Video Outpost &quot;Too&quot;",
+        "Food Donkey"
+      ]
+    },
+    {
+      "category": "Entertainment: Books",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Romance of the Three Kingdoms, who was not a member of the Peach Garden Oath?",
+      "correct_answer": "Zhao Yun",
+      "incorrect_answers": [
+        "Liu Bei",
+        "Guan Yu",
+        "Zhang Fei"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the largest country in the world ?",
+      "correct_answer": "Russian Federation",
+      "incorrect_answers": [
+        "China",
+        "Canada",
+        "Mumbai"
+      ]
     }
   ]
 }
